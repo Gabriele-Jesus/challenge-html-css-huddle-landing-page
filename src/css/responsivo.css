@@ -1,0 +1,30 @@
+@media (max-width: 376px){
+    .header{
+        width: 150px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container .mockups img{
+        height: 180px;
+    }
+    
+    .container .about .text{
+        width: 250px;
+        align-self: center;
+        
+    }
+
+    .container .about .button{
+        align-self: center;
+    }
+
+    .footer{
+        justify-content: center;
+    }
+}
